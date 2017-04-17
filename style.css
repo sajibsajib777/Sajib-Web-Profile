@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+.mag-top{
+	margin-top: 15px;
+}
+.boder-wide{
+	border-bottom: 5px solid rgba(128, 128, 128, 0.26);
+}
+.boder-think{
+	border-bottom: 2px solid rgba(128, 128, 128, 0.26);
+}
+.o_hed{
+	text-align: center;
+	background: rgba(128, 128, 128, 0.27);
+	border-right: 2px solid gray;
+}
+#serce{
+	border-radius: 20px;
+	background: url(searce.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.profile{
+	border: 2px solid rgba(128, 128, 128, 0.26);
+	border-radius: 5px;
+
+}
+.title{
+	background: rgba(128, 128, 128, 0.13);
+	padding: 4px 0px;
+	text-transform: capitalize;
+	padding-left: 20px;
+}
+.pro_text{
+	text-align: center;
+}
+.pro_text img{
+	width: 100%;
+}
+.from h4{
+	text-align: right;
+}
+.from h3{
+	text-transform: capitalize;
+}
+input{
+	width:97%;
+	border-radius: 3px;
+	padding: 7px 0px;
+}
+#te-area{
+	width: 97%;
+	height: 100px;
+}
+#btn{
+	padding: 7px 25px;
+	border: none;
+	cursor: pointer;
+	background: rgba(51, 122, 183, 0.82);
+	color: white;
+	border-radius: 5px;
+}
+#btn:hover{
+	opacity: 0.5;
+}
+.box1{
+	border: 5px solid rgba(128, 128, 128, 0.26);
+	margin-bottom: 30px;
+}
+.box2{
+	border: 5px solid rgba(128, 128, 128, 0.26);
+}
+/*midia query*/
+@media (max-width: 767px) { 
+.from h4{
+	text-align: left;
+}
+.from h3{
+	text-transform: capitalize;
+	text-align: center;
+}
+.title{
+	text-align: center;
+ }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.from h4{
+	text-align: left;
+}
+.from h3{
+	text-transform: capitalize;
+	text-align: center;
+}
+.title{
+	text-align: center;
+ }
+}
